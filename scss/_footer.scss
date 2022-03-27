@@ -1,0 +1,19 @@
+@import "vars";
+.footer {
+    margin: 65px 0 0;
+    background-image: url("../img/footer.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 0;
+    p {
+        font-family: $secondery-font;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 27px;
+        text-transform: capitalize;
+        color: $accent;
+        margin-left: 177px;
+    }
+}

@@ -1,0 +1,27 @@
+@media (max-width: 991.98px) {
+    .header {
+        &__nav-item+&__nav-item {
+            margin-left: 0;
+        }
+    }
+}
+
+@media (max-width: 991.98px) {
+    .categories {
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 714px) {
+    .header__nav {
+        display: none;
+    }
+    .header__nav-toggle {
+        display: flex;
+    }
+}

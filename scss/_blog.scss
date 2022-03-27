@@ -1,0 +1,71 @@
+@import "vars";
+.blog {
+    text-align: center;
+    &__title {
+        font-family: $secondery-font;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: capitalize;
+        color: $color-text;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 540px;
+        &-title {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+            text-transform: capitalize;
+            color: $red;
+            left: 0;
+        }
+        &-details {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: $color-text;
+            margin: 0;
+            border-bottom: 2px solid green;
+        }
+        &-leed {
+            font-family: $main-font;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: $secondery-color;
+            text-align: start;
+        }
+        &-link {
+            font-family: $secondery-font;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: $secondery-color;
+            padding: 5px 25px;
+            border: 2px solid $color-text;
+            transition: all 0.3s;
+            &:hover {
+                background-color: $orange;
+                border-color: $orange;
+            }
+        }
+    }
+}

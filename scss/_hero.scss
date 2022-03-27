@@ -1,0 +1,51 @@
+@import "vars";
+.hero {
+    padding: 105px 0 89px;
+    text-align: center;
+    background-image: url("../img/img\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__title {
+        font-family: $secondery-font;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        letter-spacing: 0.5em;
+        text-transform: uppercase;
+        color: $accent;
+    }
+    &__info {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 55px;
+        line-height: 60px;
+        text-transform: uppercase;
+        color: $accent;
+    }
+    &__info-secondary {
+        font-family: $secondery-font;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        color: $accent;
+    }
+    &__link {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 18px;
+        text-transform: uppercase;
+        color: $accent;
+        transition: all 0.3s;
+        &:hover {
+            background-color: $orange;
+            border-color: $orange;
+        }
+    }
+}
